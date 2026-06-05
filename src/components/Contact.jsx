@@ -80,7 +80,7 @@ export default function Contact() {
                     {/* right: map placeholder */}
                     <div
                         className="rounded-2xl border w-full border-slate-100 bg-white p-3 lg:flex-1"
-                        data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <div className="w-full h-full rounded-xl grid place-items-center text-center overflow-hidden">
                             <iframe

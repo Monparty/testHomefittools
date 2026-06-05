@@ -73,10 +73,10 @@ export const FAQS = [
 ]
 
 export const STATS = [
-  { value: '50,000+', label: 'ลูกค้าไว้วางใจ' },
-  { value: '700+', label: 'รายการสินค้า' },
-  { value: '4.9/5', label: 'คะแนนรีวิวเฉลี่ย' },
-  { value: '24 ชม.', label: 'จัดส่งด่วน' },
+  { end: 50000, suffix: '+', decimals: 0, separator: ',', label: 'ลูกค้าไว้วางใจ' },
+  { end: 700, suffix: '+', decimals: 0, separator: '', label: 'รายการสินค้า' },
+  { end: 4.9, suffix: '/5', decimals: 1, separator: '', label: 'คะแนนรีวิวเฉลี่ย' },
+  { end: 24, suffix: ' ชม.', decimals: 0, separator: '', label: 'จัดส่งด่วน' },
 ]
 
 export const FEATURES = [
