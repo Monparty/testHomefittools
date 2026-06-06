@@ -34,7 +34,7 @@ export default function Footer() {
         <div className="grid lg:grid-cols-12 gap-10">
           {/* brand */}
           <div className="lg:col-span-4" data-aos="fade-up">
-            <Logo light />
+            <Logo bg />
             <p className="mt-4 text-white/65 text-[15px] leading-relaxed max-w-sm">
               ร้านอุปกรณ์ออกกำลังกายครบวงจร คัดคุณภาพเกรดมืออาชีพ
               พร้อมบริการหลังการขายที่ดูแลคุณตลอดการใช้งาน
