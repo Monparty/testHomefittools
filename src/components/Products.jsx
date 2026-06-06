@@ -143,7 +143,9 @@ export default function Products() {
   })
 
   return (
-    <section id="products" className="py-16 sm:py-20 bg-slate-50">
+    <section id="products" className="py-16 sm:py-12 bg-slate-50">
+              <div className='h-4'></div>
+      
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         {/* Header */}

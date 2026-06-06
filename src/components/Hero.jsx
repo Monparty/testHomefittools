@@ -146,7 +146,7 @@ export default function Hero() {
                             <img
                                 key={imgIndex}
                                 src={images[imgIndex]}
-                                className="aspect-[4/5] rounded-2xl grid place-items-center text-center overflow-hidden object-cover fade-img"
+                                className="aspect-[4/5] rounded-2xl grid place-items-center text-center overflow-hidden object-cover fade-img h-[410px] lg:h-[580px]"
                                 alt=""
                             />
 
